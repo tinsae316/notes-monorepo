@@ -1,21 +1,13 @@
 {
   "name": "notes-monorepo",
   "private": true,
+  "packageManager": "npm@10.0.0",
   "workspaces": ["apps/*", "packages/*"],
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "turbo": "latest"
   },
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "turbo": "^2.9.9"
   }
 }
